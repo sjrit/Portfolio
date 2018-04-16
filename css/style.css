@@ -1910,6 +1910,8 @@ form label {
 .gtco-card-item .gtco-text {
   padding: 0px 10px 10px 20px;
   text-align: center;
+  height: 285px;
+  overflow: auto;
 }
 .gtco-card-item .gtco-text.text-left {
   text-align: left;
