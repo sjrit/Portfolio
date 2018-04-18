@@ -21,6 +21,8 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -43,6 +45,9 @@
 	<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
+
+	<!-- Team.css -->
+	<link rel="stylesheet" href="css/team.css">
 
 	<style>
 		.truncate {
@@ -116,11 +121,15 @@
 				</div>
 			</header>
 			<div class="flex-section gtco-gray-bg">
-				<div class="col-1">
+				<!-- <div class="col-1"> -->
+				<div style="padding: 7rem 0;
+				width: 80%;
+				margin: 0 auto;
+				margin-top:7rem;">
 					<div class="text">
 						<div class="row row-pb-sm">
 							<div class="col-md-12">
-								<h2>Who Are We ?</h2>
+								<h2 style="padding-bottom:3rem">Who Are We ?</h2>
 								<p>Established in 2018, SJR IT Solutions is a fast pace growing startup with broad experience and utmost competence
 									of our individual team member in delivering what we call as perfection to our customers.</p>
 								<p>A team of young professionals working smart to build a relationship with our clients. We takes the ownership of our
@@ -146,7 +155,78 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-2 flex-img" style="background-image: url(images/img_1.jpg);"></div>
+				<!-- <div class="col-2 flex-img" style="background-image: url(images/img_1.jpg);"></div> -->
+			</div>
+
+
+			<div class="flex-section gtco-gray-bg">
+				<!-- <div class="col-1"> -->
+				<div style="padding: 7rem 0;
+					width: 80%;
+					margin: 0 auto;">
+					<div class="text">
+						<div class="row row-pb-sm">
+							<div class="col-md-12">
+								<h2 style="padding-bottom:3rem">Meet Our Team</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<div class="our-team">
+									<div class="pic">
+										<div>
+											<p style="margin-top: -17px;">she knows the bounds of her responsibilities so as not to lose sight of the forest for the trees.
+											</p>
+										</div>
+										<img src="images/nidhi.jpg">
+									</div>
+									<h3 class="title">Nidhi Dubey</h3>
+									<span class="post">Founder & COO</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="our-team">
+									<div class="pic">
+										<!-- <ul class="social">
+											<li>
+												<a href="#" class="fa fa-facebook"></a>
+											</li>
+											<li>
+												<a href="#" class="fa fa-twitter"></a>
+											</li>
+											<li>
+												<a href="#" class="fa fa-linkedin"></a>
+											</li>
+										</ul> -->
+										<div>
+											<p style="margin-top: -10px;">responsible for overseeing all technical aspects of the company.
+											</p>
+										</div>
+										<img src="images/raj.jpg">
+									</div>
+									<h3 class="title">Raj Kumar Dubey</h3>
+									<span class="post">CTO</span>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6">
+								<div class="our-team">
+									<div class="pic">
+										<div>
+											<p>focuses on product and marketing as the “Wizard of SJR”
+											</p>
+										</div>
+										<img src="images/harshit.jpg">
+									</div>
+									<h3 class="title">Harshit Chaubey</h3>
+									<span class="post">SEO & Marketing Head</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-2 flex-img" style="background-image: url(images/img_1.jpg);"></div> -->
 			</div>
 
 			<div class="gtco-cover gtco-cover-sm" style="background-image: url(images/img_bg_2.jpg)" data-stellar-background-ratio="0.5">
@@ -189,7 +269,7 @@
 											This vision is then developed into a full website design that is shown to the customer, so feedback can be collated,
 											revisions made, and the design then signed-off.</p>
 										<p>
-											<span onclick="myFunction('services-list1')" onclick="myFunction('services-list1')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list1" onclick="myFunction('services-list1')" onclick="myFunction('services-list1')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -208,7 +288,7 @@
 											promising to You, your Stakeholders, and your end Customers. FLEEK is a renowned India based web development company,
 											obliged in catering unique web development services.</p>
 										<p>
-											<span onclick="myFunction('services-list2')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list2" onclick="myFunction('services-list2')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -228,7 +308,7 @@
 											to the ad links they publish. If users are redirected to a page specific to what the ad links prompt then the
 											probability of turning those visitors into solid leads increases by multiple folds.</p>
 										<p>
-											<span onclick="myFunction('services-list3')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list3" onclick="myFunction('services-list3')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -248,7 +328,7 @@
 											the principles of SEO, so the websites we produce are likely to perform well in search results even without extra
 											attention to SEO.</p>
 										<p>
-											<span onclick="myFunction('services-list4')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list4" onclick="myFunction('services-list4')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -268,7 +348,7 @@
 											We can design to any brief, using our experience and a range of tested techniques to give your marketing materials
 											a professional look and feel – while giving people good reasons to choose you.</p>
 										<p>
-											<span onclick="myFunction('services-list5')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list5" onclick="myFunction('services-list5')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -290,7 +370,7 @@
 											prolific results. With the ineffable experience, our competent developers create customized e-commerce website
 											to promote your brand effectively while bringing success as well as online sales.</p>
 										<p>
-											<span onclick="myFunction('services-list6')" class="btn btn-primary">Learn more</span>
+											<span id="btn-services-list6" onclick="myFunction('services-list6')" class="btn btn-primary">Learn more</span>
 										</p>
 									</div>
 								</a>
@@ -379,7 +459,7 @@
 				</div>
 			</div>
 
-			<div id="gtco-subscribe">
+			<!-- <div id="gtco-subscribe">
 				<div class="gtco-container">
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
@@ -404,25 +484,42 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<footer id="gtco-footer" role="contentinfo">
 				<div class="gtco-container">
 					<div class="row row-p	b-md">
 						<div class="col-md-4">
+							<div class="gtco-widget">
+								<h3>Our Office</h3>
+								<ul class="gtco-quick-contact">
+									<li>
+										<a>
+											L-47, Ground Floor, L-Block </a>
+									</li>
+									<li>
+										<a>
+											New Arya Samaj Road,</a>
+									</li>
+									<li>
+										<a>
+											Uttam Nagar Delhi.</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 						<div class="col-md-4 col-md-push-1">
 						</div>
 
-						<div class="col-md-3 col-md-push-1">
+						<div class="col-md-4 col-md-push-1">
 							<div class="gtco-widget">
 								<h3>Get In Touch</h3>
 								<ul class="gtco-quick-contact">
 									<li>
-										<a href="#">
+										<a>
 											<i class="icon-phone"></i> +91 8130902370</a>
 									</li>
 									<li>
-										<a href="#">
+										<a>
 											<i class="icon-mail2"></i> rajdubey.k@gmail.com</a>
 									</li>
 								</ul>
@@ -474,12 +571,14 @@
 
 			if ($('#' + id).hasClass("truncate")) {
 				$('#' + id).removeClass('truncate');
-				$('#' + id).addClass('overflow-div');
+				// $('#' + id).addClass('overflow-div');
+				$('#btn-' + id).hide();
+
 			}
 
 			else {
 				$('#' + id).addClass('truncate');
-				$('#' + id).removeClass('overflow-div');
+				// $('#' + id).removeClass('overflow-div');
 
 			}
 		}
