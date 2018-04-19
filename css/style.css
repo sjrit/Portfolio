@@ -742,7 +742,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 7em 0;
+  /* padding: 7em 0; */
   clear: both;
   position: relative;
 }
@@ -2131,5 +2131,6 @@ form label {
   font-size: 26px;
   color: #66D37E;
 }
+
 
 /*# sourceMappingURL=style.css.map */
